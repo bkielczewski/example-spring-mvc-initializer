@@ -5,13 +5,13 @@
     <groupId>eu.kielczewski.example.spring</groupId>
     <artifactId>example-spring-initializer</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>Spring MVC Initializer Example</name>
     <url>http://kielczewski.eu</url>
 
     <properties>
-        <spring.version>3.2.4.RELEASE</spring.version>
+        <spring.version>3.2.5.RELEASE</spring.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
