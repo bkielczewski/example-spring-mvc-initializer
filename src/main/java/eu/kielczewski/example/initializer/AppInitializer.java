@@ -10,7 +10,6 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
-@SuppressWarnings("UnusedDeclaration")
 public class AppInitializer implements WebApplicationInitializer {
 
     private static final String CONFIG_LOCATION = "eu.kielczewski.example.config";

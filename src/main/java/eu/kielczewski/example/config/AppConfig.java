@@ -5,5 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "eu.kielczewski.example")
-public class AppConfig {
+class AppConfig {
 }
