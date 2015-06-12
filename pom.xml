@@ -31,7 +31,8 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
+            <version>LATEST</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
@@ -73,6 +74,14 @@
                     </httpConnector>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                 </configuration>
+            </plugin>
+
+            <!-- Tomcat -->
+
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
             </plugin>
         </plugins>
     </build>
